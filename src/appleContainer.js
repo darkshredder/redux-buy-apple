@@ -6,7 +6,7 @@ class appleContainer extends Component {
         return (
             <div>
                 
-                    <h1>No of apples: {this.props.no_of_apples}</h1>
+                    <h1>No of appless: {this.props.no_of_apples}</h1>
                     <button onClick={this.props.buyapple}>Click to buy apple</button>
                 
             </div>
