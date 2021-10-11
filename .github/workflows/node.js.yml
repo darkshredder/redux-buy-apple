@@ -31,3 +31,9 @@ jobs:
     - uses: darkshredder/web-to-app-action@main
       with:
           build-folder-path: "build"
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v2
+      with:
+        name: apks
+        path: apk/
+        retention-days: 5
